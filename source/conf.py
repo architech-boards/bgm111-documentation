@@ -40,7 +40,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'RN2483_Silica'
+project = u'Siliconlabs_Silica'
 copyright = u'2016, Silica'
 
 # The version info for the project you're documenting, acts as replacement for
@@ -164,7 +164,7 @@ html_static_path = ['_static']
 #html_file_suffix = None
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'RN2483_Silica'
+htmlhelp_basename = 'Siliconlabs_Silica'
 
 
 # -- Options for LaTeX output --------------------------------------------------
@@ -183,7 +183,7 @@ latex_elements = {
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title, author, documentclass [howto/manual]).
 latex_documents = [
-  ('index', 'RN2483_Silica.tex', u'RN2483\\_Silica Documentation',
+  ('index', 'Siliconlabs_Silica.tex', u'Siliconlabs\\_Silica Documentation',
    u'Silica', 'manual'),
 ]
 
@@ -213,7 +213,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    ('index', 'RN2483_Silica', u'RN2483_Silica Documentation',
+    ('index', 'Siliconlabs_Silica', u'Siliconlabs_Silica Documentation',
      [u'Silica'], 1)
 ]
 
@@ -227,8 +227,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-  ('index', 'RN2483_Silica', u'RN2483_Silica Documentation',
-   u'Silica', 'RN2483_Silica', 'One line description of project.',
+  ('index', 'Siliconlabs_Silica', u'Siliconlabs_Silica Documentation',
+   u'Silica', 'Siliconlabs_Silica', 'One line description of project.',
    'Miscellaneous'),
 ]
 
