@@ -13,6 +13,8 @@ Microchip’s Long Range Low Power End Node solution
 
 .. image:: _static/logo_silica_nxp_micro.jpg
 
+.. image:: _static/board_top.jpg
+
 .. index:: index
 
 **INTRODUCTION**
@@ -27,12 +29,12 @@ Other valuable characteristic is the ultra-low power consumption that permits to
 
 This board shows you the capability of the **BGM111** sending data by Bluetooth read from the sensors of:
 
-- temperature
-- accelerometer
-- magnetometer
-- gyroscope
-- ambient light
-- prossimity
+- Temperature
+- Accelerometer
+- Magnetometer
+- Gyroscope
+- Ambient Light
+- Proximity
 
 **BGM111** Features:
 
@@ -51,7 +53,7 @@ This board shows you the capability of the **BGM111** sending data by Bluetooth 
 Developement tools
 ******************
 
-Firmware developed using:
+Firmware developed used:
 **Blue Gecko Software**, for installation and configuration of the project, follow instruction inside :ref:`quick`
 
 Document references

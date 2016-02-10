@@ -5,7 +5,7 @@
 Developing guide
 ----------------
 
-This page explain how to develop under *Windows* with the **BG Tool** showing where download, install and use it. To program the BGM111 is necessary not only the SiliconLab Sensor Node itself but also the board named **PCB4001**.
+This page explain how to develop under *Windows* with the **BG Tool** showing where download, install and use it. To program the BGM111 is necessary not only the SiliconLab Sensor Node itself but also the board named **SLWSTK6201A**.
 
 Installing
 **********
@@ -13,14 +13,38 @@ Installing
 The software could be dowloaded from the `silabs website <https://www.silabs.com/products/wireless/bluetooth/Pages/bluetooth-smart-software.aspx>`_ the version used in this guide is `v0.9.2-446 <https://www.silabs.com/Support%20Documents/RegisteredDocs/bgm-0.9.2-446.exe>`_. In the silabs webpage you can find under the *download now* documents about BGScript, BGAPI, and example applications.
 Once it downloaded install following default options.
 
-PCB4001
-*******
+SLWSTK6201A board
+*****************
 
-This board is needed to program the firmware in the **SiliconLab Sensor Node**. Without this hardware is not possible flash the BGM111. It is necessary also make connections from the connector of the board with the device. To make this connections please follow this scheme:
+The board `EZR32 Leopard Gecko Starter Kit <https://www.silabs.com/products/wireless/wirelessmcu/Pages/ezr32lg-starter-kits.aspx>`_ is needed to program the firmware in the **SiliconLab Sensor Node**. It is used as a J-Link. Without this hardware is not possible flash the BGM111. It is necessary also make connections from the connector of the board with the device. To make this connections please follow this scheme:
 
-.. image:: _static/changeme.jpg
+.. image:: _static/board_bottom.jpg
 
-Pefore to continue, connect the **SiliconLab Sensor Node** to the **PCB4001** and connect the PC to to the **PCB4001**. Windows will install a virtual COM when recognizes the board.
+As in figure:
+
+==  ============
+PT  Significance
+==  ============
+18  VCC
+19  GND
+11  RESET
+7   SWDIO
+8   SWCLK
+==  ============
+
+Connect these lines to the **SLWSTK6201A** board:
+
+===========  ===========  ============
+Sensor Node  SLWSTK6201A  Line
+===========  ===========  ============
+TP18	     P5 pin 40    VCC
+TP19	     P5 pin 39    GND
+TP11	     P5 pin 23    RESET
+TP7          P5 pin 28    SWDIO
+TP8          P5 pin 27    SWCLK
+===========  ===========  ============
+
+Pefore to continue, connect the **SiliconLab Sensor Node** to the **SLWSTK6201A** and connect the PC via usb to the **SLWSTK6201A**. Windows will install a virtual COM when recognizes the board.
 
 The Project
 ***********
@@ -36,7 +60,7 @@ The BGScript project include several files:
 - bgm111demo.bgs: main source code, entry point of the firmare.
 - peripheral.bgs: source code to comunicate with the sensors by I2C.
 
-Now, to compile the project first up, download from `architechboards website <http://architechboards.org/>`_ the source code of the project. Extract it and launch **BGTool**. Select the COM connected to the **PCB4001** board.
+Now, to compile the project first up, download from `architechboards website <http://architechboards.org/>`_ the source code of the project. Extract it and launch **BGTool**. Select the COM connected to the **SLWSTK6201A** board.
 
 .. image:: _static/bgt_com.jpg
 

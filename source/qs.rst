@@ -16,9 +16,9 @@ in order to follow the next steps is mandatory using an Android phone.
 
 .. image:: _static/app_not_found.jpg
 
-3. Turn on the **SiliconLabs Sensor Node** board.
+3. Turn on the **SiliconLabs Sensor Node** board inserting the battery.
 
-.. image:: _static/changeme.jpg
+.. image:: _static/board_battery.jpg
 
 4. The **nRF Master Control Panel** will find out the device.
 
