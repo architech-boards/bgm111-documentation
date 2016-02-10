@@ -16,6 +16,8 @@ Once it downloaded install following default options.
 SLWSTK6201A board
 *****************
 
+.. image:: _static/board_EZR32LG.jpg
+
 The board `EZR32 Leopard Gecko Starter Kit <https://www.silabs.com/products/wireless/wirelessmcu/Pages/ezr32lg-starter-kits.aspx>`_ is needed to program the firmware in the **SiliconLab Sensor Node**. It is used as a J-Link. Without this hardware is not possible flash the BGM111. It is necessary also make connections from the connector of the board with the device. To make this connections please follow this scheme:
 
 .. image:: _static/board_bottom.jpg
