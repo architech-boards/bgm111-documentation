@@ -11,7 +11,7 @@ Welcome to SiliconLabs Sensor Node documentation!
 Microchip’s Long Range Low Power End Node solution
 --------------------------------------------------
 
-.. image:: _static/logo_silica_nxp_micro.jpg
+.. image:: _static/logo_silica_nxp_slabs.jpg
 
 .. image:: _static/board_top.jpg
 
