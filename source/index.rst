@@ -8,10 +8,10 @@ Welcome to SiliconLabs Sensor Node documentation!
 :Copyright: (C)2016 Silica an Avnet company
 :Date: 05 Feb 2016
 
-Microchip’s Long Range Low Power End Node solution
---------------------------------------------------
+Silicon Labs' Smallest, Lowest Power Bluetooth Smart Module
+-----------------------------------------------------------
 
-.. image:: _static/logo_silica_nxp_slabs.jpg
+.. image:: _static/logo_silica_slabs.jpg
 
 .. image:: _static/board_top.jpg
 
@@ -23,9 +23,9 @@ Microchip’s Long Range Low Power End Node solution
 The SiliconLabs Sensor Node has the **BGM111** device that is a Bluetooth® Smart module targeted for Bluetooth Smart applications.
 That permits good RF performance, low power consumption and easy application development as key requirements. 
 At +8 dBm TX power BGM111 has best-in-class RF performance and can provide long range, robust Bluetooth Smart connectivity.
-This devices integrates all of the necessary elements required for a Bluetooth Smart application: Bluetooth radio, software stack and GATT based profiles and it can also host end user applications, which means no external microcontroller is required in size, price or power constrained devices.
+This device integrates all of the necessary elements required for a Bluetooth Smart application: Bluetooth radio, software stack and GATT based profiles and it can also host end user applications, which means no external microcontroller is required in size, price or power constrained devices.
 SiliconLabs Sensor Node has several sensors connected to the BGM111 Bluetooth Smart module, thanks its highly flexible hardware interface to connect to different peripherals.
-Other valuable characteristic is the ultra-low power consumption that permits to operating using a standard 3V coin cell battery.
+Another valuable characteristic is the ultra-low power consumption that permits to operating using a standard 3V coin cell battery.
 
 This board shows you the capability of the **BGM111** sending data by Bluetooth read from the sensors of:
 
@@ -53,8 +53,8 @@ This board shows you the capability of the **BGM111** sending data by Bluetooth 
 Developement tools
 ******************
 
-Firmware developed used:
-**Blue Gecko Software**, for installation and configuration of the project, follow instruction inside :ref:`quick`
+Firmware developed using:
+**Blue Gecko Software**, for installation and configuration of the project, follow instruction inside :ref:`develop`
 
 Document references
 *******************

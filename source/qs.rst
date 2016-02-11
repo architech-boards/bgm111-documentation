@@ -12,7 +12,7 @@ in order to follow the next steps is mandatory using an Android phone.
 
 .. image:: _static/ico_nrf.jpg
 
-2. Launch the installed application and go to **Scanner** tab. At the first time no one device will be seen. Turn on the bluetooth from the settings of your phone.
+2. Launch the installed application and go to **Scanner** tab. At the first time no one device will be seen. Turn on the Bluetooth from the settings of your phone.
 
 .. image:: _static/app_not_found.jpg
 
@@ -28,7 +28,7 @@ in order to follow the next steps is mandatory using an Android phone.
 
 .. image:: _static/app_data.jpg
 
-6. Every 2 seconds the SiliconLab Sensor Node will send a new frame with the last data readed from the sensors. To undersand what are these numbers here the simple schema:
+6. Every 2 seconds the SiliconLab Sensor Node will send a new frame with the last data read from the sensors. To understand what are these numbers here the simple schema:
 
 .. image:: _static/frame.jpg
 
