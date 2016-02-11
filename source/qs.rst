@@ -48,9 +48,9 @@ X      2' complement value in units of 10-6T
 Y      2' complement value in units of 10-6T
 Z      2' complement value in units of 10-6T
 0x28   Gyroscope
-X      2' complement value in units od 0.01deg/s
-Y      2' complement value in units od 0.01deg/s
-Z      2' complement value in units od 0.01deg/s
+X      2' complement value in units od 0.1deg/s
+Y      2' complement value in units od 0.1deg/s
+Z      2' complement value in units od 0.1deg/s
 0x48   Ambient light & Proximity
 A      units ok klux 
 P

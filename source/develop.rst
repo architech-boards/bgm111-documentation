@@ -62,7 +62,7 @@ The BGScript project include several files:
 - bgm111demo.bgs: main source code, entry point of the firmare.
 - peripheral.bgs: source code to comunicate with the sensors by I2C.
 
-Now, to compile the project first up, download from `architechboards website <http://architechboards.org/>`_ the source code of the project. Extract it and launch **BGTool**. Select the COM connected to the **SLWSTK6201A** board.
+Now, to compile the project first up, download from `architechboards website <http://architechboards.org/>`_ the source code of the project. Extract it and launch **BGTool**. Choose **BGM111** module and select the COM connected to the **SLWSTK6201A** board.
 
 .. image:: _static/bgt_com.jpg
 
