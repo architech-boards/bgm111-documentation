@@ -25,7 +25,7 @@ The board `EZR32 Leopard Gecko Starter Kit <https://www.silabs.com/products/wire
 As in figure:
 
 ==  ============
-PT  Significance
+PT  Line
 ==  ============
 18  VCC
 19  GND
