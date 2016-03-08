@@ -34,16 +34,18 @@ PT  Significance
 8   SWCLK
 ==  ============
 
-Connect these lines to the **SLWSTK6201A** board:
+Connect these lines to the **SLWSTK6201A** board, red connector:
+
+.. image:: _static/programming.jpg
 
 ===========  ===========  ============
 Sensor Node  SLWSTK6201A  Line
 ===========  ===========  ============
-TP18	     P5 pin 40    VCC
-TP19	     P5 pin 39    GND
-TP11	     P5 pin 23    RESET
-TP7          P5 pin 28    SWDIO
-TP8          P5 pin 27    SWCLK
+TP18	     A Pin 1      VCC
+TP19	     A Pin 2      GND
+TP11	     A Pin 18     RESET
+TP7          A Pin 13     SWDIO
+TP8          A Pin 14     SWCLK
 ===========  ===========  ============
 
 Before to continue, connect the **SiliconLab Sensor Node** to the **SLWSTK6201A** and connect the PC via USB to the **SLWSTK6201A**. Windows will install a virtual COM when recognizes the board.
