@@ -6,13 +6,13 @@ Quick start guide
 -----------------
 
 This guide shows you what kind of data are sent by the **SiliconLabs Sensor Node**.
-in order to follow the next steps is mandatory using an Android phone.
+in order to follow the next steps it is necessary to use an Android phone.
 
 1. Install the application **nRF Master Control Panel** from **Google Play Store**.
 
 .. image:: _static/ico_nrf.jpg
 
-2. Launch the installed application and go to **Scanner** tab. At the first time no one device will be seen. Turn on the Bluetooth from the settings of your phone.
+2. Launch the installed application and go to **Scanner** tab. At the first time no device will be seen. Turn on the Bluetooth from the settings of your phone.
 
 .. image:: _static/app_not_found.jpg
 
@@ -28,7 +28,7 @@ in order to follow the next steps is mandatory using an Android phone.
 
 .. image:: _static/app_data.jpg
 
-6. Every 2 seconds the SiliconLab Sensor Node will send a new frame with the last data read from the sensors. To understand what are these numbers here the simple schema:
+6. Every 2 seconds the SiliconLab Sensor Node will send a new frame with the last data read from the sensors. To understand what are these numbers here there is a simple schema:
 
 .. image:: _static/frame.jpg
 

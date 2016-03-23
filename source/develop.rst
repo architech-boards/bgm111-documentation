@@ -5,12 +5,12 @@
 Developing guide
 ----------------
 
-This page explains how to develop under *Windows* with the **BG Tool** showing where to download, install and use it. To program the BGM111 is necessary not only the SiliconLab Sensor Node itself but also the board named **SLWSTK6201A**.
+This page explains how to develop under *Windows* with the **BG Tool** showing where to download, install and use it. To program the BGM111 it is necessary not only the SiliconLab Sensor Node itself but also the board named **SLWSTK6201A**.
 
 Installing
 **********
 
-The software could be downloaded from the `SiliconLabs website <https://www.silabs.com/products/wireless/bluetooth/Pages/bluetooth-smart-software.aspx>`_ the version used in this guide is `v0.9.2-446 <https://www.silabs.com/Support%20Documents/RegisteredDocs/bgm-0.9.2-446.exe>`_. In the silabs webpage you can find under the *download now* documents about BGScript, BGAPI, and example applications.
+The software can be downloaded from the `SiliconLabs website <https://www.silabs.com/products/wireless/bluetooth/Pages/bluetooth-smart-software.aspx>`_ the version used in this guide is `v0.9.2-446 <https://www.silabs.com/Support%20Documents/RegisteredDocs/bgm-0.9.2-446.exe>`_. In the silabs webpage under the *download now* you can find documents about BGScript, BGAPI, and example applications.
 Once it downloaded install following default options.
 
 SLWSTK6201A board
@@ -18,7 +18,7 @@ SLWSTK6201A board
 
 .. image:: _static/board_EZR32LG.jpg
 
-The board `EZR32 Leopard Gecko Starter Kit <https://www.silabs.com/products/wireless/wirelessmcu/Pages/ezr32lg-starter-kits.aspx>`_ is needed to program the firmware in the **SiliconLab Sensor Node**. It is used as a J-Link. Without this hardware is not possible to flash the BGM111. It is necessary also make connections from the connector of the board with the device. To make this connection please follow this scheme:
+The board `EZR32 Leopard Gecko Starter Kit <https://www.silabs.com/products/wireless/wirelessmcu/Pages/ezr32lg-starter-kits.aspx>`_ is needed to program the firmware in the **SiliconLab Sensor Node**. It is used as a J-Link. Without this hardware it is not possible to flash the BGM111. It is necessary also to make connections from the connector of the board with the device. To make this connection please follow this scheme:
 
 .. image:: _static/board_bottom.jpg
 
@@ -76,6 +76,5 @@ Will appear a new window where to open the project file.
 
 .. image:: _static/bgt_project.jpg
  
-Before to build the project select where put the binary file, this file will be uploaded into the **BGM111**.
-The last step is flash the firmware, to do this verify that all the connections are steady and click on *Upload* button. In few seconds the board will be programmed. Reset the device in order to run the new firmware uploaded.
-
+Before to build the project select where to put the binary file, this file will be uploaded into the **BGM111**.
+The last step is flash the firmware, to do this verify that all the connections are steady and click on *Upload* button. In few seconds the board will be programmed.
