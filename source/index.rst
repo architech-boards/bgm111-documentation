@@ -4,9 +4,10 @@ Welcome to SiliconLabs Sensor Node documentation!
 =================================================
 
 
-:Version: 1.00A
+:Version: 1.00B
 :Copyright: (C)2016 Silica an Avnet company
-:Date: 05 Feb 2016
+:Date: 23 Mar 2016
+:Reference name: 
 
 Silicon Labs' Smallest, Lowest Power Bluetooth Smart Module
 -----------------------------------------------------------
