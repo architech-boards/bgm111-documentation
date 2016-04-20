@@ -31,6 +31,7 @@ Another valuable characteristic is the ultra-low power consumption that permits 
 This board shows you the capability of the **BGM111** sending data by Bluetooth read from the sensors of:
 
 - Temperature
+- Humidity
 - Accelerometer
 - Magnetometer
 - Gyroscope
