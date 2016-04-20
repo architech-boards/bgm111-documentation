@@ -6,9 +6,9 @@ Quick start guide
 -----------------
 
 This guide shows you what kind of data are sent by the **SiliconLabs Sensor Node**.
-in order to follow the next steps it is necessary to use an Android phone.
+in order to follow the next steps it is necessary to use an Android phone or an iOS device.
 
-1. Install the application **nRF Master Control Panel** from **Google Play Store**.
+1. Install the application **nRF Master Control Panel** from **Google Play Store** or from **Apple Store**.
 
 .. image:: _static/ico_nrf.jpg
 
