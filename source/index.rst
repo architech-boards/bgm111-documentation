@@ -13,6 +13,7 @@ Silicon Labs' Smallest, Lowest Power Bluetooth Smart Module
 -----------------------------------------------------------
 
 .. image:: _static/logo_silica_slabs.jpg
+  :align: left
 
 .. image:: _static/board_top.jpg
 
